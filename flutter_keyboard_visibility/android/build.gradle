@@ -28,7 +28,10 @@ android {
     }
 
     compileSdkVersion 31
-
+    
+    // ✅ 아래 줄 추가
+    namespace "com.flutterkeyboardvisibility"
+    
     defaultConfig {
         minSdkVersion 16
     }
