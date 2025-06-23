@@ -29,7 +29,9 @@ android {
 
     compileSdkVersion 31
     
-    namespace 'com.julienvignali.flutter_keyboard_visibility' // ← 추가
+
+     // ✅ namespace는 단 한 번만 정의합니다.
+    namespace 'com.jrai.flutter_keyboard_visibility'
     
     defaultConfig {
         minSdkVersion 16
